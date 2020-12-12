@@ -6,10 +6,10 @@ _Note: the plugin is called RSS but does not technically include an example of a
 
 ## Installation
 
-Available on [npm](https://www.npmjs.com/package/@11ty/eleventy-plugin-rss).
+Available on [npm](https://www.npmjs.com/package/@ransomware/eleventy-plugin-rss).
 
 ```
-npm install @11ty/eleventy-plugin-rss --save-dev
+npm install @ransomware/eleventy-plugin-rss --save-dev
 ```
 
 Open up your Eleventy config file (probably `.eleventy.js`) and use `addPlugin`:
