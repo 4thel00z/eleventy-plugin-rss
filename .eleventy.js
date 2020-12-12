@@ -5,7 +5,7 @@ const htmlToAbsoluteUrls = require("./src/htmlToAbsoluteUrls");
 module.exports = function(eleventyConfig) {
   eleventyConfig.addNunjucksFilter("rssLastUpdatedDate", collection => {
     if( !collection || !collection.length ) {
-      throw new Error( "Collection is empty in rssLastUpdatedDate filter." );
+      return null;
     }
 
     // Newest date in the collection
